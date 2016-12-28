@@ -6,6 +6,7 @@ import factory.pizzafm.PizzaStore;
 import factory.pizzafm.NYPizzaStore;
 import factory.pizzafm.ChicagoPizzaStore;
 
+import factory.abstractFactory.*;
 //import factory.*;
 
 public class Main {
@@ -61,33 +62,45 @@ public class Main {
 //        System.out.println("We ordered a "+pizza.getName()+"\n");
         //pizzafm
 
-        PizzaStore nyStore=new NYPizzaStore();
-        PizzaStore chicagoStore=new ChicagoPizzaStore();
 
-        Pizza pizza=nyStore.orderPizza("cheese");
-        System.out.println("Ethan ordered a " + pizza.getName() + "\n");
+            //factory method
+//        PizzaStore nyStore=new NYPizzaStore();
+//        PizzaStore chicagoStore=new ChicagoPizzaStore();
+//
+//        Pizza pizza=nyStore.orderPizza("cheese");
+//        System.out.println("Ethan ordered a " + pizza.getName() + "\n");
+//
+//        pizza=chicagoStore.orderPizza("cheese");
+//        System.out.println("Joel ordered a " + pizza.getName() + "\n");
+//
+//        pizza=nyStore.orderPizza("clam");
+//        System.out.println("Ethan ordered a " + pizza.getName() + "\n");
+//
+//        pizza=chicagoStore.orderPizza("clam");
+//        System.out.println("Joel ordered a " + pizza.getName() + "\n");
+//
+//        pizza = nyStore.orderPizza("pepperoni");
+//        System.out.println("Ethan ordered a " + pizza.getName() + "\n");
+//
+//        pizza = chicagoStore.orderPizza("pepperoni");
+//        System.out.println("Joel ordered a " + pizza.getName() + "\n");
+//
+//        pizza = nyStore.orderPizza("veggie");
+//        System.out.println("Ethan ordered a " + pizza.getName() + "\n");
+//
+//        pizza = chicagoStore.orderPizza("veggie");
+//        System.out.println("Joel ordered a " + pizza.getName() + "\n");
 
-        pizza=chicagoStore.orderPizza("cheese");
-        System.out.println("Joel ordered a " + pizza.getName() + "\n");
 
-        pizza=nyStore.orderPizza("clam");
-        System.out.println("Ethan ordered a " + pizza.getName() + "\n");
+        //abstract factory
 
-        pizza=chicagoStore.orderPizza("clam");
-        System.out.println("Joel ordered a " + pizza.getName() + "\n");
+        AbstractFactory factoryBMW=new FactoryBMW320();
+        factoryBMW.createAircondition();
+        factoryBMW.createEngine();
 
-        pizza = nyStore.orderPizza("pepperoni");
-        System.out.println("Ethan ordered a " + pizza.getName() + "\n");
-
-        pizza = chicagoStore.orderPizza("pepperoni");
-        System.out.println("Joel ordered a " + pizza.getName() + "\n");
-
-        pizza = nyStore.orderPizza("veggie");
-        System.out.println("Ethan ordered a " + pizza.getName() + "\n");
-
-        pizza = chicagoStore.orderPizza("veggie");
-        System.out.println("Joel ordered a " + pizza.getName() + "\n");
-
+        factoryBMW=new FactoryBMW523();
+        factoryBMW.createAircondition();
+        factoryBMW.createEngine();
 
 
 
