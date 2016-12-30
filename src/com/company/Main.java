@@ -126,6 +126,7 @@ public class Main {
         ll.add(new Student(200,"tao"));
         ll.add(new Student(10,"BUPT"));
 
+        //lambda expression
         ll.sort((Student s1,Student s2)->s1.getScore()-s2.getScore());
         for(Student s:ll){
             System.out.println(s);
