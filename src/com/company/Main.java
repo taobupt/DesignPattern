@@ -1,5 +1,6 @@
 package com.company;
 
+import com.sun.media.sound.SoftShortMessage;
 import design.*;
 import factory.pizzafm.Pizza;
 import factory.pizzafm.PizzaStore;
@@ -7,11 +8,20 @@ import factory.pizzafm.NYPizzaStore;
 import factory.pizzafm.ChicagoPizzaStore;
 
 import factory.abstractFactory.*;
-//import factory.*;
+
+import command.simpleremote.*;
+
+import nestedclass.*;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
+
 	// write your code here
 //        Duck d=new MallardDuck();
 //        d.performFly();
@@ -94,15 +104,47 @@ public class Main {
 
         //abstract factory
 
-        AbstractFactory factoryBMW=new FactoryBMW320();
-        factoryBMW.createAircondition();
-        factoryBMW.createEngine();
+//        AbstractFactory factoryBMW=new FactoryBMW320();
+//        factoryBMW.createAircondition();
+//        factoryBMW.createEngine();
+//
+//        factoryBMW=new FactoryBMW523();
+//        factoryBMW.createAircondition();
+//        factoryBMW.createEngine();
 
-        factoryBMW=new FactoryBMW523();
-        factoryBMW.createAircondition();
-        factoryBMW.createEngine();
 
+        // command pattern
+//        SimpleRemoteControl remote=new SimpleRemoteControl();
+//        Light light=new Light();
+//        GarageDoor garageDoor=new GarageDoor();
+//        remote.setSlot(new LightOnCommand(light));
+//        remote.buttonWasPressed();
+//        remote.setSlot(new GarageDoorOpenCommand(garageDoor));
+//        remote.buttonWasPressed();
+        List<Student>ll=new ArrayList<>();
+        ll.add(new Student(100,"tap"));
+        ll.add(new Student(200,"tao"));
+        ll.add(new Student(10,"BUPT"));
 
+        Collections.sort(ll, new Comparator<Student>() {
+            @Override
+            public int compare(Student o1, Student o2) {
+                if(o1.getScore()==o2.getScore())
+                    return 0;
+                else if(o1.getScore()>o2.getScore())
+                    return 1;
+                else
+                    return -1;
+            }
+        });
+        for(Student s:ll){
+            System.out.println(s);
+        }
 
+        //OuterClass.InnerClass innerClass=new OuterClass.InnerClass();
+        //System.out.println(innerClass.getA());
+        //System.out.println(innerClass.getB());
+        //System.out.println(innerClass.getC());
+        //System.out.println(innerClass.getD());
     }
 }

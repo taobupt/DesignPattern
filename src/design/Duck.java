@@ -26,6 +26,7 @@ public abstract class Duck {
     public Duck()
     {
 
+
     }
     public void performQuack()
     {
