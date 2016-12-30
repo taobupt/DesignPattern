@@ -126,21 +126,12 @@ public class Main {
         ll.add(new Student(200,"tao"));
         ll.add(new Student(10,"BUPT"));
 
-        Collections.sort(ll, new Comparator<Student>() {
-            @Override
-            public int compare(Student o1, Student o2) {
-                if(o1.getScore()==o2.getScore())
-                    return 0;
-                else if(o1.getScore()>o2.getScore())
-                    return 1;
-                else
-                    return -1;
-            }
-        });
+        ll.sort((Student s1,Student s2)->s1.getScore()-s2.getScore());
         for(Student s:ll){
             System.out.println(s);
         }
 
+        System.out.println("hello I have setted the git");
         //OuterClass.InnerClass innerClass=new OuterClass.InnerClass();
         //System.out.println(innerClass.getA());
         //System.out.println(innerClass.getB());
