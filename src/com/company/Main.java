@@ -1,22 +1,22 @@
 package com.company;
 
-import com.sun.media.sound.SoftShortMessage;
-import design.*;
-import factory.pizzafm.Pizza;
-import factory.pizzafm.PizzaStore;
-import factory.pizzafm.NYPizzaStore;
-import factory.pizzafm.ChicagoPizzaStore;
+//import com.sun.media.sound.SoftShortMessage;
+//import design.*;
+//import factory.pizzafm.Pizza;
+//import factory.pizzafm.PizzaStore;
+//import factory.pizzafm.NYPizzaStore;
+//import factory.pizzafm.ChicagoPizzaStore;
 
-import factory.abstractFactory.*;
+//import factory.abstractFactory.*;
 
-import command.simpleremote.*;
+//import command.simpleremote.*;
 
-import nestedclass.*;
+//import nestedclass.*;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
+
+import adapter.simple.*;
+import adapter.simple.facade.*;
 
 public class Main {
 
@@ -124,13 +124,24 @@ public class Main {
         List<Student>ll=new ArrayList<>();
         ll.add(new Student(100,"tap"));
         ll.add(new Student(200,"tao"));
-        ll.add(new Student(10,"BUPT"));
 
+        ll.add(new Student(10,"BUPT"));
         //lambda expression
         ll.sort((Student s1,Student s2)->s1.getScore()-s2.getScore());
+
+        Iterator<Student>it=ll.iterator();
+        while(it.hasNext()){
+            System.out.println(it.next());
+        }
+
         for(Student s:ll){
             System.out.println(s);
         }
+        ll.forEach((tmp)->{
+            System.out.println(tmp);
+        });
+
+
 
         System.out.println("hello I have setted the git");
         //OuterClass.InnerClass innerClass=new OuterClass.InnerClass();
@@ -138,5 +149,31 @@ public class Main {
         //System.out.println(innerClass.getB());
         //System.out.println(innerClass.getC());
         //System.out.println(innerClass.getD());
+
+
+
+        //adapter
+//        MallardDuck duck=new MallardDuck();
+//
+//        WildTurkey turkey=new WildTurkey();
+//
+//        Duck turkeyAdapter=new TurkeyAdapter(turkey);
+//        System.out.println("The turkey says...");
+//        turkey.goggle();
+//        turkey.fly();
+//
+//        System.out.println("\n the duck says");
+//        testDuck(duck);
+//        System.out.println("\n the turkeyadapter say....");
+//        testDuck(turkeyAdapter);
+
+        AbstractEncryptFacade encryptFacade=new NewEncryptFacade();
+        encryptFacade.FileEncrypt("A:\\log.txt","A:\\encry.txt");
+
     }
+
+//    static void testDuck(Duck duck){
+//        duck.quack();
+//        duck.fly();
+//    }
 }
