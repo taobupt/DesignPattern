@@ -17,6 +17,8 @@ import java.util.*;
 
 import adapter.simple.*;
 import adapter.simple.facade.*;
+import templateMethod.abstractVersion.Coffee;
+import templateMethod.abstractVersion.Tea;
 
 public class Main {
 
@@ -121,29 +123,33 @@ public class Main {
 //        remote.buttonWasPressed();
 //        remote.setSlot(new GarageDoorOpenCommand(garageDoor));
 //        remote.buttonWasPressed();
-        List<Student>ll=new ArrayList<>();
-        ll.add(new Student(100,"tap"));
-        ll.add(new Student(200,"tao"));
 
-        ll.add(new Student(10,"BUPT"));
-        //lambda expression
-        ll.sort((Student s1,Student s2)->s1.getScore()-s2.getScore());
+        //review for the java fundamental
+//        List<Student>ll=new ArrayList<>();
+//        ll.add(new Student(100,"tap"));
+//        ll.add(new Student(200,"tao"));
+//
+//        ll.add(new Student(10,"BUPT"));
+//        //lambda expression
+//        ll.sort((Student s1,Student s2)->s1.getScore()-s2.getScore());
+//
+//        Iterator<Student>it=ll.iterator();
+//        while(it.hasNext()){
+//            System.out.println(it.next());
+//        }
+//
+//        for(Student s:ll){
+//            System.out.println(s);
+//        }
+//        ll.forEach((tmp)->{
+//            System.out.println(tmp);
+//        });
+//
+//
+//
+//        System.out.println("hello I have setted the git");
 
-        Iterator<Student>it=ll.iterator();
-        while(it.hasNext()){
-            System.out.println(it.next());
-        }
 
-        for(Student s:ll){
-            System.out.println(s);
-        }
-        ll.forEach((tmp)->{
-            System.out.println(tmp);
-        });
-
-
-
-        System.out.println("hello I have setted the git");
         //OuterClass.InnerClass innerClass=new OuterClass.InnerClass();
         //System.out.println(innerClass.getA());
         //System.out.println(innerClass.getB());
@@ -167,9 +173,24 @@ public class Main {
 //        System.out.println("\n the turkeyadapter say....");
 //        testDuck(turkeyAdapter);
 
-        AbstractEncryptFacade encryptFacade=new NewEncryptFacade();
-        encryptFacade.FileEncrypt("A:\\log.txt","A:\\encry.txt");
 
+        //facade pattern
+//        AbstractEncryptFacade encryptFacade=new NewEncryptFacade();
+//        encryptFacade.FileEncrypt("A:\\log.txt","A:\\encry.txt");
+
+        //method pattern
+//        Tea myTea=new Tea();
+//        Coffee coffee=new Coffee();
+
+//        System.out.println("\nMaking tea ...");
+//        myTea.prepareRecipe();
+
+//        System.out.println("\nMaking coffee");
+//        coffee.prepareRecipe();
+        int x = 2;
+        Integer it = new Integer(x);
+        x = it.intValue();
+        System.out.println(x);
     }
 
 //    static void testDuck(Duck duck){
