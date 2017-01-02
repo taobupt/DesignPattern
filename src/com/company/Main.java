@@ -20,6 +20,8 @@ import adapter.simple.facade.*;
 import templateMethod.abstractVersion.Coffee;
 import templateMethod.abstractVersion.Tea;
 
+
+import Collection.*;
 public class Main {
 
     public static void main(String[] args) {
@@ -187,10 +189,15 @@ public class Main {
 
 //        System.out.println("\nMaking coffee");
 //        coffee.prepareRecipe();
-        int x = 2;
-        Integer it = new Integer(x);
-        x = it.intValue();
-        System.out.println(x);
+        Menu pancakeHouseMenu = new PancakeHouseMenu();
+        Menu dinnerMenu = new DinnerMenu();
+        Menu cafeMenu = new CafeMenu();
+        ArrayList<Menu> it = new ArrayList<>();
+        it.add(pancakeHouseMenu);
+        it.add(dinnerMenu);
+        it.add(cafeMenu);
+        Waitress waitress = new Waitress(it);
+        waitress.printMenu();
     }
 
 //    static void testDuck(Duck duck){
