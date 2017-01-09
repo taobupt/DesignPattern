@@ -15,6 +15,7 @@ package com.company;
 
 import java.util.*;
 
+import StatePattern.gumballState.GumballMachine;
 import adapter.simple.*;
 import adapter.simple.facade.*;
 import templateMethod.abstractVersion.Coffee;
@@ -189,15 +190,36 @@ public class Main {
 
 //        System.out.println("\nMaking coffee");
 //        coffee.prepareRecipe();
-        Menu pancakeHouseMenu = new PancakeHouseMenu();
-        Menu dinnerMenu = new DinnerMenu();
-        Menu cafeMenu = new CafeMenu();
-        ArrayList<Menu> it = new ArrayList<>();
-        it.add(pancakeHouseMenu);
-        it.add(dinnerMenu);
-        it.add(cafeMenu);
-        Waitress waitress = new Waitress(it);
-        waitress.printMenu();
+//        Menu pancakeHouseMenu = new PancakeHouseMenu();
+//        Menu dinnerMenu = new DinnerMenu();
+//        Menu cafeMenu = new CafeMenu();
+//        ArrayList<Menu> it = new ArrayList<>();
+//        it.add(pancakeHouseMenu);
+//        it.add(dinnerMenu);
+//        it.add(cafeMenu);
+//        Waitress waitress = new Waitress(it);
+//        waitress.printMenu();
+
+
+        //state pattern
+        GumballMachine gumballMachine = new GumballMachine(10);
+        System.out.println(gumballMachine);
+
+        gumballMachine.insertQuarter();
+        gumballMachine.turnCrank();
+        gumballMachine.insertQuarter();
+        gumballMachine.turnCrank();
+
+        System.out.println(gumballMachine);
+
+        gumballMachine.insertQuarter();
+        gumballMachine.turnCrank();
+        gumballMachine.insertQuarter();
+        gumballMachine.turnCrank();
+
+        System.out.println(gumballMachine);
+
+        gumballMachine.insertQuarter();
     }
 
 //    static void testDuck(Duck duck){

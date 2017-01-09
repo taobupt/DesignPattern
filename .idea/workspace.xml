@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/com/company/Main.java" line="72" />
+    <bookmark url="file://$PROJECT_DIR$/src/com/company/Main.java" line="73" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b80d28-674e-478e-943f-09ae5fe4d858" name="Default" comment="add method pattern&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Collection/CafeMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Collection/DinnerMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Collection/DinnerMenuIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Collection/JavaIterator/DinnerMenuJavaIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Collection/Menu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Collection/MenuItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Collection/MyIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Collection/PancakeHouseMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Collection/PancakeHouseMenuIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Collection/Waitress.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/DesignPattern/com/company/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StatePattern/Gumball.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StatePattern/gumballState/GumballMachine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StatePattern/gumballState/HasQuarterState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StatePattern/gumballState/NoQuarterState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StatePattern/gumballState/SoldOutState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StatePattern/gumballState/SoldState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StatePattern/gumballState/State.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StatePattern/gumballState/WinnerState.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -40,50 +38,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32872504">
-              <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CafeMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Collection/CafeMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Waitress.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Collection/Waitress.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DinnerMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Collection/DinnerMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.26694474">
+              <caret line="188" column="32" selection-start-line="188" selection-start-column="32" selection-end-line="188" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,14 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/factory/abstractFactory/Engine.java" />
-        <option value="$PROJECT_DIR$/src/factory/abstractFactory/EngineA.java" />
-        <option value="$PROJECT_DIR$/src/factory/abstractFactory/EngineB.java" />
-        <option value="$PROJECT_DIR$/src/factory/abstractFactory/Aircondition.java" />
-        <option value="$PROJECT_DIR$/src/factory/abstractFactory/AirconditionA.java" />
-        <option value="$PROJECT_DIR$/src/factory/abstractFactory/AirconditionB.java" />
-        <option value="$PROJECT_DIR$/src/factory/abstractFactory/FactoryBMW523.java" />
-        <option value="$PROJECT_DIR$/src/factory/abstractFactory/AbstractFactory.java" />
         <option value="$PROJECT_DIR$/src/factory/abstractFactory/FactoryBMW320.java" />
         <option value="$PROJECT_DIR$/src/singleton/ChocolateBoiler.java" />
         <option value="$PROJECT_DIR$/src/command/simpleRemote/Ligght.java" />
@@ -172,6 +120,14 @@
         <option value="$PROJECT_DIR$/src/Collection/PancakeHouseMenu.java" />
         <option value="$PROJECT_DIR$/src/Collection/CafeMenu.java" />
         <option value="$PROJECT_DIR$/src/Collection/Waitress.java" />
+        <option value="$PROJECT_DIR$/src/StatePattern/Gumball.java" />
+        <option value="$PROJECT_DIR$/src/StatePattern/gumballState/State.java" />
+        <option value="$PROJECT_DIR$/src/StatePattern/gumballState/SoldState.java" />
+        <option value="$PROJECT_DIR$/src/StatePattern/gumballState/SoldOutState.java" />
+        <option value="$PROJECT_DIR$/src/StatePattern/gumballState/NoQuarterState.java" />
+        <option value="$PROJECT_DIR$/src/StatePattern/gumballState/HasQuarterState.java" />
+        <option value="$PROJECT_DIR$/src/StatePattern/gumballState/GumballMachine.java" />
+        <option value="$PROJECT_DIR$/src/StatePattern/gumballState/WinnerState.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
@@ -212,8 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -246,67 +201,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Collection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Collection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaIterator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -806,7 +704,8 @@
       <workItem from="1483176412508" duration="60000" />
       <workItem from="1483227288896" duration="4487000" />
       <workItem from="1483231900237" duration="98000" />
-      <workItem from="1483312562113" duration="5510000" />
+      <workItem from="1483312562113" duration="6110000" />
+      <workItem from="1483931013572" duration="3261000" />
     </task>
     <task id="LOCAL-00001" summary="set git successfully&#10;">
       <created>1483083852702</created>
@@ -836,7 +735,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62174000" />
+    <option name="totallyTimeSpent" value="66035000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -848,17 +747,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="7" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31205675" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31205675" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13186222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -875,6 +773,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497309" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -921,62 +820,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/factory/abstractFactory/EngineB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27669904">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/abstractFactory/EngineA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30744338">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/abstractFactory/Aircondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21521036">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/abstractFactory/AirconditionB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21521036">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/abstractFactory/AirconditionA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30744338">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/abstractFactory/FactoryBMW523.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/abstractFactory/FactoryBMW320.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21521036">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/abstractFactory/AbstractFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18446602">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/command/simpleremote/GarageDoorOpenCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24178155">
@@ -1198,7 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1206,16 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6736184">
           <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1223,7 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,10 +1062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4669739">
           <caret line="18" column="0" selection-start-line="7" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1242,10 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49615976">
           <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding>
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1253,15 +1076,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1269,7 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1278,9 +1091,9 @@
         <state vertical-scroll-proportion="0.23348695">
           <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#873#874#0" expanded="false" />
+            <element signature="e#916#917#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1290,7 +1103,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="false" />
+            <element signature="e#1526#1527#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1299,13 +1113,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1313,18 +1121,150 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StatePattern/Gumball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StatePattern/gumballState/SoldState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69343066">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StatePattern/gumballState/SoldOutState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5745568">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StatePattern/gumballState/NoQuarterState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5943691">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StatePattern/gumballState/HasQuarterState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61418146">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StatePattern/gumballState/GumballMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6642336">
+          <caret line="84" column="47" selection-start-line="84" selection-start-column="47" selection-end-line="84" selection-end-column="47" />
+          <folding>
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1381#1382#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StatePattern/gumballState/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15849844">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StatePattern/gumballState/WinnerState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27737227">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32872504">
-          <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.26694474">
+          <caret line="188" column="32" selection-start-line="188" selection-start-column="32" selection-end-line="188" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
