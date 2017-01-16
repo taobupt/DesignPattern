@@ -15,17 +15,66 @@ package com.company;
 
 import java.util.*;
 
-import StatePattern.gumballState.GumballMachine;
-import adapter.simple.*;
-import adapter.simple.facade.*;
-import templateMethod.abstractVersion.Coffee;
-import templateMethod.abstractVersion.Tea;
+//import StatePattern.gumballState.GumballMachine;
+//import adapter.simple.*;
+//import adapter.simple.facade.*;
+//import design.Quack;
+//import templateMethod.abstractVersion.Coffee;
+//import templateMethod.abstractVersion.Tea;
 
 
-import Collection.*;
+import compound.*;
+
+
 public class Main {
 
+
+    static void simulate() {
+//        Quackable mallardDuck=new MallarDuck();
+//        Quackable redheadDuck=new RedheadDuck();
+//        Quackable duckcall=new DuckCall();
+//        Quackable rubberDuck=new RubberDuck();
+//
+//        Quackable goose=new GooseAdapter(new Goose());
+
+        Quackable mallardDuck = new QuackCounter(new MallarDuck());
+        Quackable redheadDuck = new QuackCounter(new RedheadDuck());
+        Quackable duckcall = new QuackCounter(new DuckCall());
+        Quackable rubberDuck = new QuackCounter(new RubberDuck());
+        Quackable goose = new GooseAdapter(new Goose());
+
+        System.out.println("\nDuck Simulator: With Goose Adapter");
+        simualte(mallardDuck);
+        simualte(redheadDuck);
+        simualte(duckcall);
+        simualte(rubberDuck);
+        simualte(goose);
+
+        System.out.println("The dcuks quacked " + QuackCounter.getQuacks() + " times");
+    }
+
+    static void simualte(Quackable duck) {
+        duck.quack();
+    }
     public static void main(String[] args) {
+
+        simulate();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	// write your code here
 //        Duck d=new MallardDuck();
@@ -202,24 +251,24 @@ public class Main {
 
 
         //state pattern
-        GumballMachine gumballMachine = new GumballMachine(10);
-        System.out.println(gumballMachine);
-
-        gumballMachine.insertQuarter();
-        gumballMachine.turnCrank();
-        gumballMachine.insertQuarter();
-        gumballMachine.turnCrank();
-
-        System.out.println(gumballMachine);
-
-        gumballMachine.insertQuarter();
-        gumballMachine.turnCrank();
-        gumballMachine.insertQuarter();
-        gumballMachine.turnCrank();
-
-        System.out.println(gumballMachine);
-
-        gumballMachine.insertQuarter();
+//        GumballMachine gumballMachine = new GumballMachine(10);
+//        System.out.println(gumballMachine);
+//
+//        gumballMachine.insertQuarter();
+//        gumballMachine.turnCrank();
+//        gumballMachine.insertQuarter();
+//        gumballMachine.turnCrank();
+//
+//        System.out.println(gumballMachine);
+//
+//        gumballMachine.insertQuarter();
+//        gumballMachine.turnCrank();
+//        gumballMachine.insertQuarter();
+//        gumballMachine.turnCrank();
+//
+//        System.out.println(gumballMachine);
+//
+//        gumballMachine.insertQuarter();
     }
 
 //    static void testDuck(Duck duck){
