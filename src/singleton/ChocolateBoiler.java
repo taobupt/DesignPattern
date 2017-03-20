@@ -13,10 +13,13 @@ public class ChocolateBoiler {
         boiled=false;
     }
 
+    //double check, lazy load, initial it when you need it .
+    //this is lazy man method.
     public static ChocolateBoiler getUniqueInstance(){
         if(uniqueInstance==null){
             synchronized (ChocolateBoiler.class){
-                if(uniqueInstance==null){
+                if (uniqueInstance == null) {//why we need this? when two thread A,B come into this, A visit first, and create the instance, when B'turn, it doesn't know instance
+                    //has been created.
                     uniqueInstance=new ChocolateBoiler();
                 }
             }
