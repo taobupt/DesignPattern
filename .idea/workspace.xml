@@ -4,235 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/company/Main.java" line="153" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b80d28-674e-478e-943f-09ae5fe4d858" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__concurrent_concurrent_1_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avalon_framework_avalon_framework_api_4_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avalon_framework_avalon_framework_impl_4_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_excalibur_components_excalibur_pool_api_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_excalibur_components_excalibur_sourceresolve_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_excalibur_components_excalibur_store_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_excalibur_components_excalibur_xmlutil_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Collection/CafeMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Collection/DinnerMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Collection/DinnerMenuIterator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Collection/JavaIterator/DinnerMenuJavaIterator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Collection/Menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Collection/MenuItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Collection/MyIterator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Collection/PancakeHouseMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Collection/PancakeHouseMenuIterator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Collection/Waitress.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Decorator/Beverage$Size.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Decorator/Beverage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Decorator/CondimentDecorator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Decorator/DarkRoast.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Decorator/Decaf.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Decorator/Espresso.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Decorator/HouseBlend.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Decorator/Milk.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Decorator/Mocha.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Decorator/Soy$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Decorator/Soy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/Decorator/Whip.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/adapter/simple/Duck.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/adapter/simple/EnumerationIterator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/adapter/simple/MallardDuck.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/adapter/simple/Turkey.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/adapter/simple/TurkeyAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/adapter/simple/WildTurkey.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/adapter/simple/facade/AbstractEncryptFacade.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/adapter/simple/facade/CipherMachine.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/adapter/simple/facade/EncryptFacade.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/adapter/simple/facade/FileRead.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/adapter/simple/facade/FileWrite.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/adapter/simple/facade/NewCipherMachine.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/adapter/simple/facade/NewEncryptFacade.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/company/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/company/Student.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/command/simpleremote/Command.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/command/simpleremote/GarageDoor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/command/simpleremote/GarageDoorOpenCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/command/simpleremote/Light.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/command/simpleremote/LightOffCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/command/simpleremote/LightOnCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/command/simpleremote/SimpleRemoteControl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/design/Duck.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/design/FlyBehavior.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/design/FlyNoway.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/design/FlyWithWings.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/design/MallardDuck.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/design/MuteQuack.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/design/Quack.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/design/QuackBehavior.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/design/Squeak.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/CheesePizza.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/ClamPizza.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/PepperoniPizza.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/Pizza.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/PizzaStore.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/SimplePizzaFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/VeggiePizza.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/abstractFactory/AbstractFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/abstractFactory/Aircondition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/abstractFactory/AirconditionA.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/abstractFactory/AirconditionB.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/abstractFactory/Engine.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/abstractFactory/EngineA.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/abstractFactory/EngineB.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/abstractFactory/FactoryBMW320.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/abstractFactory/FactoryBMW523.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/pizzafm/ChicagoPizzaStore.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/pizzafm/ChicagoStyleCheesePizza.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/pizzafm/ChicagoStyleClamPizza.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/pizzafm/ChicagoStylePepperoniPizza.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/pizzafm/ChicagoStyleVeggiePizza.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/pizzafm/DependentPizzaStore.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/pizzafm/NYPizzaStore.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/pizzafm/NYStyleCheesePizza.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/pizzafm/NYStyleClamPizza.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/pizzafm/NYStylePepperoniPizza.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/pizzafm/NYStyleVeggiePizza.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/pizzafm/Pizza.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/factory/pizzafm/PizzaStore.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/nestedclass/OuterClass$InnerClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/nestedclass/OuterClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/observer/CurrentConditionsDisplay.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/observer/DisplayElement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/observer/ForecastDisplay.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/observer/Observer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/observer/StatisticsDisplay.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/observer/Subject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/observer/WeatherData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/singleton/ChocolateBoiler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/templateMethod/abstractVersion/CaffineBeverage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/templateMethod/abstractVersion/Coffee.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/templateMethod/abstractVersion/Tea.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/templateMethod/simpleversion/Coffee.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattern/templateMethod/simpleversion/Tea.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Collection/CafeMenu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Collection/DinnerMenu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Collection/DinnerMenuIterator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Collection/JavaIterator/DinnerMenuJavaIterator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Collection/Menu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Collection/MenuItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Collection/MyIterator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Collection/PancakeHouseMenu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Collection/PancakeHouseMenuIterator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Collection/Waitress.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Decorator/Beverage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Decorator/CondimentDecorator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Decorator/DarkRoast.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Decorator/Decaf.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Decorator/Espresso.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Decorator/HouseBlend.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Decorator/Milk.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Decorator/Mocha.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Decorator/Soy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Decorator/Whip.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/StatePattern/Gumball.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/StatePattern/gumballState/GumballMachine.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/StatePattern/gumballState/HasQuarterState.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/StatePattern/gumballState/NoQuarterState.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/StatePattern/gumballState/SoldOutState.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/StatePattern/gumballState/SoldState.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/StatePattern/gumballState/State.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/StatePattern/gumballState/WinnerState.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/adapter/simple/Duck.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/adapter/simple/EnumerationIterator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/adapter/simple/MallardDuck.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/adapter/simple/Turkey.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/adapter/simple/TurkeyAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/adapter/simple/WildTurkey.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/adapter/simple/facade/AbstractEncryptFacade.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/adapter/simple/facade/CipherMachine.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/adapter/simple/facade/EncryptFacade.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/adapter/simple/facade/FileRead.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/adapter/simple/facade/FileWrite.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/adapter/simple/facade/NewCipherMachine.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/adapter/simple/facade/NewEncryptFacade.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/Student.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/command/simpleremote/Command.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/command/simpleremote/GarageDoor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/command/simpleremote/GarageDoorOpenCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/command/simpleremote/Light.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/command/simpleremote/LightOffCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/command/simpleremote/LightOnCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/command/simpleremote/SimpleRemoteControl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/compound/DecoyDuck.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/compound/DuckCall.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/compound/Goose.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/compound/GooseAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/compound/MallarDuck.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/compound/Observable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/compound/Observer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/compound/QuackCounter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/compound/QuackObservable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/compound/Quackable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/compound/RedheadDuck.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/compound/RubberDuck.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design/Duck.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design/FlyBehavior.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design/FlyNoway.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design/FlyWithWings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design/MallardDuck.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design/MuteQuack.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design/Quack.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design/QuackBehavior.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design/Squeak.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/CheesePizza.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/ClamPizza.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/PepperoniPizza.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/Pizza.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/PizzaStore.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/SimplePizzaFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/VeggiePizza.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/abstractFactory/AbstractFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/abstractFactory/Aircondition.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/abstractFactory/AirconditionA.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/abstractFactory/AirconditionB.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/abstractFactory/Engine.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/abstractFactory/EngineA.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/abstractFactory/EngineB.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/abstractFactory/FactoryBMW320.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/abstractFactory/FactoryBMW523.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/pizzafm/ChicagoPizzaStore.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/pizzafm/ChicagoStyleCheesePizza.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/pizzafm/ChicagoStyleClamPizza.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/pizzafm/ChicagoStylePepperoniPizza.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/pizzafm/ChicagoStyleVeggiePizza.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/pizzafm/DependentPizzaStore.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/pizzafm/NYPizzaStore.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/pizzafm/NYStyleCheesePizza.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/pizzafm/NYStyleClamPizza.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/pizzafm/NYStylePepperoniPizza.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/pizzafm/NYStyleVeggiePizza.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/pizzafm/Pizza.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factory/pizzafm/PizzaStore.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/nestedclass/OuterClass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/observer/CurrentConditionsDisplay.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/observer/DisplayElement.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/observer/ForecastDisplay.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/observer/Observer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/observer/StatisticsDisplay.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/observer/Subject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/observer/WeatherData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/singleton/ChocolateBoiler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/singleton/EagerSingletion.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/singleton/Singleton.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templateMethod/abstractVersion/CaffineBeverage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templateMethod/abstractVersion/Coffee.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templateMethod/abstractVersion/Tea.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templateMethod/simpleversion/Coffee.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templateMethod/simpleversion/Tea.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPattern.iml" afterPath="$PROJECT_DIR$/DesignPattern.iml" />
-    </list>
+    <list default="true" id="b1b80d28-674e-478e-943f-09ae5fe4d858" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1009,7 +781,7 @@
       <workItem from="1483931013572" duration="4510000" />
       <workItem from="1484533846090" duration="2142000" />
       <workItem from="1490021538306" duration="1211000" />
-      <workItem from="1490630344108" duration="2480000" />
+      <workItem from="1490630344108" duration="2514000" />
     </task>
     <task id="LOCAL-00001" summary="set git successfully&#10;">
       <created>1483083852702</created>
@@ -1053,11 +825,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490022707441</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add adapter&#10;">
+      <created>1490634040996</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1490634040996</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73117000" />
+    <option name="totallyTimeSpent" value="73151000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1081,7 +860,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30944625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30944625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1120,11 +899,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="set git successfully&#10;" />
     <MESSAGE value="set git successfully&#10;&#10;&#10;" />
-    <MESSAGE value="add adapter&#10;" />
     <MESSAGE value="add iterator pattern&#10;" />
     <MESSAGE value="add method pattern&#10;" />
     <MESSAGE value="add singleton&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add singleton&#10;" />
+    <MESSAGE value="add adapter&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add adapter&#10;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
